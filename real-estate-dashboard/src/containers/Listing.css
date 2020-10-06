@@ -1,0 +1,38 @@
+.Listing {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
+}
+
+.Listing .ListingHeaderBar {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: stretch;
+}
+
+.Listing .Body {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
+}
+
+.Listing .ListingMain {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+}
+
+.Listing .AgentInfoBar {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}

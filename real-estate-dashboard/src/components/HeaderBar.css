@@ -1,0 +1,11 @@
+.HeaderBar {
+  padding: 20px;
+  max-height: 40px;
+}
+
+.HeaderBar .Logo {
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

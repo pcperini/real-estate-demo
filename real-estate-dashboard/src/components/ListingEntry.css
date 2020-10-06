@@ -1,0 +1,58 @@
+.ListingEntry {
+  padding: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+.ListingEntry .ListingContent {
+  border-radius: 4px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow:  3px 3px 7px #d9d9d9, -3px -3px 7px #ffffff;
+}
+
+.ListingEntry .ListingImage {
+  width: 360px;
+  height: 331px;
+  background-size: cover;
+  background-position: center;
+}
+
+.ListingEntry .BadgeBar {
+  padding: 8px;
+}
+
+.ListingEntry .ListingInfo {
+  padding: 10px;
+}
+
+.ListingEntry .ListingInfo {
+  color: black;
+}
+
+.ListingEntry .ListingInfo h2, .ListingEntry .ListingInfo div {
+  margin: 0;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 360px;
+}
+
+.ListingEntry .ListingInfo div:last-child {
+  margin-bottom: 4px;
+}
+
+.ListingEntry .ListingInfo h2 {
+  font-size: 18px;
+  text-overflow: ellipsis;
+}
+
+.ListingEntry .ListingInfo .Price {
+  font-weight: bold;
+  font-size: 18px;
+  color: #5f57ff;
+}
+
+.ListingEntry .ListingInfo .RoomInfo {
+  font-weight: lighter;
+}

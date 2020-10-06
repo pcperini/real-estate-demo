@@ -1,0 +1,32 @@
+.ListingHeaderBar {
+  padding: 20px;
+  padding-left: 80px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.ListingHeaderBar h1, .ListingHeaderBar h2 {
+  color: black;
+  font-weight: normal;
+  margin: 0;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.ListingHeaderBar .spacer {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+}
+
+.ListingHeaderBar .Button {
+  align-self: flex-end;
+  margin-right: 20px;
+}

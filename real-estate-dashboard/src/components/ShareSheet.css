@@ -1,0 +1,19 @@
+.Popover-body {
+  padding: 20px;
+}
+
+.Popover-body h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+.Popover-body label {
+  font-weight: bold;
+}
+
+.Popover-body input {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
