@@ -1,7 +1,10 @@
 # real-estate-demo
 
 ## Getting Started
-https://pcperini-real-estate-demo.glitch.me/
+Checkout, then run:
+
+`npm run build`
+`npm run start`
 
 Agent Login:
 `andrea@northopointerealty.com`
